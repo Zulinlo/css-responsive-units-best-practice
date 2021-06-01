@@ -3,7 +3,8 @@
 Relative units scale relatively to other length properties.
 
 | Unit | Description |
-| %    | **Percentage:** relative to parent element |
+| ---- | ----------- |
+| % | **Percentage:** relative to parent element |
 | rem | **Root element's Font-size:** relative to font-size of root element |
 | em | **Font-size:** relative to font-size of parent element |
 | ch | **Cap height:** sets font-size relative to the width of '0' |
@@ -14,6 +15,7 @@ Relative units scale relatively to other length properties.
 Absolute units are fixed lengths and must be used with caution for screens as their sizes vary greatly.
 
 | Unit | Description |
+| ---- | ----------- |
 | cm | **Centimeter:** only a perfect centimeter if screen's resolution is high enough |
 | mm | **Millimeter:** only a perfect millimeter if screen's resolution is high enough |
 | in | **Inch:** 2.56cm and only a perfect inch if screen's resolution is high enough |
