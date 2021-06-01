@@ -63,6 +63,7 @@ Font-size should only be applied to lowest-level children to avoid a cascading e
 .child {
   font-size: 0.5em;
 }
+```
 
 ## Border
 Recommended to use ```px``` as borders do not generally need to scale.
