@@ -30,24 +30,24 @@ The root element(html)'s default font-size is generally set to ```16px``` howeve
 As screen sizes differ, most commonly between phones, tablets and laptop screens it is prefferable to adjust the root element's font-size accordingly using media queries as shown below for responsive font sizes using ```rem```.
 
 ``` css
-{* Phones *}
-@media only screen and (max-width: 800px) {
+/* Small devices: Phones */
+@media only screen and (min-width: 100px) {
   html {
-    font-size: 85%;
+    font-size: 75%;
   }
 }
 
-{* Laptops, tablets *}
-@media only screen and (min-width: 801px) {
+/* Medium devices: Laptops, tablets */
+@media only screen and (min-width: 768px) {
   html {
     font-size: 100%;
   }
 }
 
-{* TVs, large screens *}
-@media only screen and (min-width: 1281px) {
+/* Large devices: TVs, large monitors */
+@media only screen and (min-width: 1200px) {
   html {
-    font-size: 115%;
+    font-size: 125%;
   }
 }
 ```
