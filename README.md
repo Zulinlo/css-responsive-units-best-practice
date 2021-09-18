@@ -25,11 +25,11 @@ Absolute units are fixed lengths and must be used with caution for screens as th
 
 # When to use what units
 ## HTML / Media queries
-It is gnerally best practice to develop for a mobile screen size first and then adjust for larger screens whether it be through media queries breakpoints or other adjustments, although setting the root element's font-size can help with this transformation.
+Generally the best practice is to develop for a mobile screen size first and then adjust for larger screens whether it be through media queries breakpoints or other adjustments, although setting the root element's font-size can help with this transformation.
 
 The root element(html)'s default font-size is generally set to ```16px``` however this differs per device as it can be customally altered (short-sighted people may increase this default property). Thus, it is important when adjusting the root's font-size to use ```%```.
 
-As screen sizes differ, most commonly between phones, tablets and laptop screens it is prefferable to adjust the root element's font-size accordingly using media queries as shown below for responsive font sizes using ```rem```.
+As screen sizes differ, most commonly between phones, tablets and laptop screens it is prefferable to adjust the root element's font-size accordingly using media queries as shown below for responsive font sizes using ```rem```. Also, media queries are essential when dealing with screen size breakpoints, such as collapsing the navbar when on smaller screens.
 
 ``` css
 /* Small devices: Phones */
